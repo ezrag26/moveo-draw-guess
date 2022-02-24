@@ -1,0 +1,18 @@
+#canvas {
+	border: 1px solid black;
+	border-radius: 8px;
+	/* width: 500px;
+	height: 500px; */
+}
+
+.color-palette__color {
+	cursor: pointer;
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	margin: 0.5em;
+}
+
+.color-palette__color:hover {
+	transform: scale(1.1);
+}
